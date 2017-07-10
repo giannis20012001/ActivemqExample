@@ -29,7 +29,7 @@ public class MessagingConfiguration {
         template.setDefaultDestinationName(ORDER_QUEUE);
 
         return template;
-        
+
     }
 
     private static final String DEFAULT_BROKER_URL = "tcp://localhost:61616";
